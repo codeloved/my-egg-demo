@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {%- block myheader %}
+  <title>模板title</title>
+  <meta name="Keywords" content="egg模板" />
+  <meta name="description" content="egg模板">
+  {% endblock %}
+  <link rel="icon" href="/public/images/favicon.ico" type="image/x-icon"/>
+  {%- block mycss %}
+  <link rel="stylesheet" type="text/css" href="/public/css/index.css">
+  {% endblock %}
+  <link rel="stylesheet" type="text/css" href="/public/css/index.less">
+</head>
+<body>
+  <header class="top">
+  </header>
+  <main>
+   {%- block main %}
+   {% endblock %}
+  </main>
+  <footer class="bottom">
+  </footer>
+  <script src="/public/jquery/jquery-3.3.1.min.js"></script>
+  {%- block myjs %}
+    <script src="/public/js/index.js"></script>
+  {% endblock %}
+</body>
+</html>

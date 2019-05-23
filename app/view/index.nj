@@ -1,0 +1,26 @@
+{% extends "layout.nj" %}
+
+{% block myheader %}
+  <title>首页</title>
+  <meta name="Keywords" content="首页" />
+  <meta name="description" content="首页">
+  <meta name="baidu-site-verification" content="lIvFVOB25c" />
+{% endblock %}
+
+{% block mycss %}
+  <link rel="stylesheet" type="text/css" href="/public/css/index.css">
+{% endblock %}
+
+{% block main %}
+<section class="my_egg">
+  <div class="des">
+    我的egg模板
+  </div>
+  <div class="name">
+  </div>
+</section>
+{% endblock %}
+
+{% block myjs %}
+  <script src="/public/js/index.js"></script>
+{% endblock %}
